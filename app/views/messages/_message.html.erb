@@ -1,1 +1,5 @@
-<p><%= message.content %></p>
+<p class="message">
+    <%= message.content %></br>
+    <%= message.created_at.strftime("投稿日時：%Y年%m月%d日 %H:%M")  %>
+</p>
+

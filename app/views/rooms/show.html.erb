@@ -2,11 +2,11 @@
   <h1>Lineもどきのアプリ</h1>
   <form class="form-inline">
     <div class="form-group">
-      <input type="text" class="form-control" id="chat-input" />
-    </div>    
-    <button id="button" class="btn btn-primary">送信</button>
-  </form>  
-  <div id="messages" style="padding-top: 15px;">
+      <textarea class="form-control" id="chat-input" placeholder="メッセージを入力してください！" required></textarea></br>
+    </div>
+  </form>
+      <button id="button" class="btn btn-primary">投稿</button>
+  <div id="messages">
       <%= render @messages %>          
   </div>
 </div>
