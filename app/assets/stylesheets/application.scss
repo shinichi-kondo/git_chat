@@ -1,0 +1,60 @@
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+body {
+    background-image: url("Shinkansen.jpg");
+    background-color:rgba(255,255,255,0.9);
+    background-position: center;
+    background-size:cover;
+    background-blend-mode:lighten;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size:48px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+p {
+  position: relative;
+  border: solid 2px #80c8d1;
+  background: #f4f4f4;
+  line-height: 1.4;
+  padding: 0.4em 0.5em;
+  margin: 2em 0 0.5em;
+}
+
+p:before {
+  /*タブ*/
+  position: absolute;
+  font-family: "Font Awesome 5 Free",'Quicksand','Avenir','Arial',sans-serif;
+  content: '\f0a7\ POSTED';
+  background: #80c8d1;
+  color: #fff;
+  left: 0px;
+  bottom: 100%;
+  border-radius: 5px 5px 0 0;
+  padding: 5px 7px 3px;
+  font-size: 0.7em;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+.form-group .form-control {
+  width: 400px;
+}
+
+#button {
+  margin-left: 15px;
+}
+
+#messages {
+  margin-top: 15px;
+} 
